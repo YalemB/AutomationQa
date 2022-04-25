@@ -1,0 +1,24 @@
+1650129788476	geckodriver	INFO	Listening on 127.0.0.1:55125
+1650129791535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55126" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilecnWseX"
+1650129803769	geckodriver	INFO	Listening on 127.0.0.1:55188
+1650129806868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileGzTaqI"
+1650129807467	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileGzTaqI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55189/devtools/browser/46325e99-3acd-480d-a6d4-d7fdf2513c42
+1650129811188	Marionette	INFO	Listening on port 55243
+Read port: 55243
+1650129811306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1650129817297	Marionette	INFO	Stopped listening on port 55243
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1650129851421	geckodriver	INFO	Listening on 127.0.0.1:55283
+1650129854506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilekizinK"
+1650129855119	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilekizinK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55284/devtools/browser/12cea7c8-ae94-47e4-a80c-fbfb8a41aede
+1650129858468	Marionette	INFO	Listening on port 55311
+Read port: 55311
+1650129858515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650129859807	Marionette	INFO	Stopped listening on port 55311
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
