@@ -1,13 +1,7 @@
-from aditTeatcontctUs import setUp
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from  atidSetUp import *
 
 def test_ui_a_top_page_contact_us():
-    driver = setUp()
+    driver = setUp("contact-us")
     navbar = driver.find_element(By.ID, "primary-site-navigation").text.split("\n")
     check_nav = ["HOME","STORE","MEN","WOMEN","ACCESSORIES", "ABOUT", "CONTACT US"]
     assert navbar == check_nav
@@ -19,7 +13,7 @@ def test_ui_a_top_page_contact_us():
     driver.quit()
 
 def test_ui_b_left_side():
-    driver = setUp()
+    driver = setUp("contact-us")
 
     form = driver.find_element(By.XPATH, "//body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/article[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]").text.split("\n")
     data = ['You tell us. We listen.',

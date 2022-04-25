@@ -38,24 +38,25 @@ def setUp():
     return driver
 
 
-def test_search_result():
-    driver = setUp()
-    driver.find_element(By.LINK_TEXT, "STORE").click()
-    search = driver.find_element(By.ID, "wc-block-search__input-1")
-    search.send_keys("anchor bracelet")
-    search.send_keys(Keys.RETURN)
-
-    name = driver.find_element(By.XPATH, "// h1[contains(text(), 'Anchor Bracelet')]").get_attribute("innerText")
-    price = driver.find_element(By.XPATH,
-                                "//body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[2]/div[2]/p[1]/span[1]/bdi[1]").get_attribute(
-        "innerText").split(".")
-    det = driver.find_element(By.XPATH,
-                              "//body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[2]/div[2]/div[2]/p[1]").get_attribute(
-        "innerText")
-    assert name == "Anchor Bracelet"
-    assert price[0] == "250"
-    assert det == "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed."
-
+#
+# def test_search_result():
+#     driver = setUp()
+#     driver.find_element(By.LINK_TEXT, "STORE").click()
+#     search = driver.find_element(By.ID, "wc-block-search__input-1")
+#     search.send_keys("anchor bracelet")
+#     search.send_keys(Keys.RETURN)
+#
+#     name = driver.find_element(By.XPATH, "// h1[contains(text(), 'Anchor Bracelet')]").get_attribute("innerText")
+#     price = driver.find_element(By.XPATH,
+#                                 "//body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[2]/div[2]/p[1]/span[1]/bdi[1]").get_attribute(
+#         "innerText").split(".")
+#     det = driver.find_element(By.XPATH,
+#                               "//body[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[2]/div[2]/div[2]/p[1]").get_attribute(
+#         "innerText")
+#     assert name == "Anchor Bracelet"
+#     assert price[0] == "250"
+#     assert det == "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed."
+#
 
 
 

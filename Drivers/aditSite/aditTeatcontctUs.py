@@ -1,19 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-
-def setUp():
-    PATH = "C:\Program Files (x86)\chromedriver.exe"
-    driver = webdriver.Chrome(PATH)
-    driver.get("https://atid.store/contact-us")
-    return driver
+from  atidSetUp import *
 
 def test_a_fill_contact_us_form():
-    driver = setUp()
+    driver = setUp("contact-us")
     name = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_0").send_keys("yalem")
     subject = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_5").send_keys("dalivery")
     email = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_4").send_keys("y@mail.com")
@@ -32,7 +20,7 @@ def test_a_fill_contact_us_form():
 
 
 def test_b_fill_contact_us_form_unvalid_email():
-    driver = setUp()
+    driver = setUp("contact-us")
     name = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_0").send_keys("yalem")
     subject = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_5").send_keys("dalivery")
     email = driver.find_element(By.CSS_SELECTOR, "#wpforms-15-field_4").send_keys("ygmail.com")
