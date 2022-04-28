@@ -4,6 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
 
 #driver set-up to atid-store
 # pages = [home, store, man, women, accessories, about, contact]
@@ -18,6 +19,8 @@ def setUp(page=""):
         return driver
     else:
         print("page not exist")
+
+
 
 
 
