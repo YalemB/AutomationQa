@@ -22,3 +22,193 @@ Read port: 55311
 1650129858515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1650129859807	Marionette	INFO	Stopped listening on port 55311
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652088215513	geckodriver	INFO	Listening on 127.0.0.1:52175
+1652088218603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileeEueIF"
+1652088219406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileeEueIF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52176/devtools/browser/b9be71f7-f4be-4757-bbe6-359b8c02f3c9
+1652088221359	Marionette	INFO	Listening on port 52196
+Read port: 52196
+1652088221485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1652088230991	Marionette	INFO	Stopped listening on port 52196
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652088397172	geckodriver	INFO	Listening on 127.0.0.1:52411
+1652088400248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52412" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileebsUGH"
+1652088400586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileebsUGH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52412/devtools/browser/73a68138-971b-4a58-87fc-848e8ad76fef
+1652088402104	Marionette	INFO	Listening on port 52438
+Read port: 52438
+1652088402160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652088425718	Marionette	INFO	Stopped listening on port 52438
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652088449426	geckodriver	INFO	Listening on 127.0.0.1:52507
+1652088452493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilehOT0Wa"
+1652088452854	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilehOT0Wa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52508/devtools/browser/c00d956e-d5d4-438e-abd7-e78c2c9ae16e
+1652088454393	Marionette	INFO	Listening on port 52533
+Read port: 52533
+1652088454454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652088575035	Marionette	INFO	Stopped listening on port 52533
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652088577882	geckodriver	INFO	Listening on 127.0.0.1:52617
+1652088580973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilervB36D"
+1652088582536	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilervB36D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52618/devtools/browser/c7d66e0c-06e4-4999-a33e-181cf8ae3c4a
+1652088583985	Marionette	INFO	Listening on port 52641
+Read port: 52641
+1652088584091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+1652088586752	Marionette	INFO	Stopped listening on port 52641
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+1652088610428	geckodriver	INFO	Listening on 127.0.0.1:52710
+1652088613508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileLw47U9"
+1652088613826	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileLw47U9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52711/devtools/browser/d8cf00cb-5597-43ec-a892-5b41abaa28c4
+1652088615360	Marionette	INFO	Listening on port 52746
+Read port: 52746
+1652088615394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:135:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:875:13
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652089017011	Marionette	INFO	Stopped listening on port 52746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofile6nEwij\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53261/devtools/browser/fb75bce1-7281-463b-96c5-d1216d48420e
+1652088997088	Marionette	INFO	Listening on port 53288
+Read port: 53288
+1652088997189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1652089004019	Marionette	INFO	Stopped listening on port 53288
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652089122070	geckodriver	INFO	Listening on 127.0.0.1:53442
+1652089125111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53443" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileVk6kLd"
+1652089125440	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileVk6kLd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53443/devtools/browser/0f9d38e2-48cf-4653-8208-f33b5e05f518
+1652089126901	Marionette	INFO	Listening on port 53462
+Read port: 53462
+1652089127029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1652089158237	Marionette	INFO	Stopped listening on port 53462
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652089160387	geckodriver	INFO	Listening on 127.0.0.1:53524
+1652089163439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilebKfxWy"
+1652089163753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofilebKfxWy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53525/devtools/browser/e324e0c4-6db4-44f6-835a-51d410a65fed
+1652089165283	Marionette	INFO	Listening on port 53552
+Read port: 53552
+1652089165339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+1652089171534	Marionette	INFO	Stopped listening on port 53552
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652089621454	geckodriver	INFO	Listening on 127.0.0.1:53691
+1652089624526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53692" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileZr3ooT"
+1652089624869	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileZr3ooT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53692/devtools/browser/7d1ffc01-b6ae-4ae9-a296-edb94f98c0e8
+1652089626458	Marionette	INFO	Listening on port 53713
+Read port: 53713
+1652089626510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+1652089629059	Marionette	INFO	Stopped listening on port 53713
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+1652089650772	geckodriver	INFO	Listening on 127.0.0.1:53755
+1652089653863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileFxerFr"
+1652089654266	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\97253\\AppData\\Local\\Temp\\rust_mozprofileFxerFr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53756/devtools/browser/737739ce-5d61-482b-8176-fb914fd01729
+1652089655770	Marionette	INFO	Listening on port 53779
+Read port: 53779
+1652089655886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1652089670640	Marionette	INFO	Stopped listening on port 53779
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
