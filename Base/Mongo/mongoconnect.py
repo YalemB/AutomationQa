@@ -2,14 +2,14 @@ import pymongo
 import dns
 
 # client = pymongo.MongoClient(
-#     "mongodb+srv://yalem:Yalem1994@cluster0.6yhzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+#     "mongodb+srv://yalem:********@cluster0.6yhzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 # db = client['arsenal_squad']
 # col = db['players']
 
 class MongoDB():
     def __init__(self,db,col):
         self.client = pymongo.MongoClient(
-            "mongodb+srv://yalem:Yalem1994@cluster0.6yhzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+            "mongodb+srv://yalem:********@cluster0.6yhzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
         self.db = self.client[db]
         self.col = self.db[col]
     def find(self,q=""):
